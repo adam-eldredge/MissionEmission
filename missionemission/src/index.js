@@ -20,8 +20,8 @@ ReactDOM.render(
       <Route path="/" element={<LOGIN_SCREEN />} />
       <Route path="/friends" element={<Friends />} />
       <Route path="/recommendations" element={<Recommendations />} />
-      <Route path="/recommendations" element={<Progress />} />
-      <Route path="/recommendations" element={<Survey />} />
+      <Route path="/progress" element={<Progress />} />
+      <Route path="/survey" element={<Survey />} />
     </Routes>
     <Footer />
   </Router>,
