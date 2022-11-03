@@ -37,3 +37,17 @@
   color: white;
   text-align: center;
 }
+
+.header {
+  position: fixed; 
+  width: 100%;
+  background-color: #3E87C1;
+  color: white;
+  text-align: center;
+}
+
+.header-text {
+  background-color: #3E87C1;
+  color: white;
+  text-align: center;
+}

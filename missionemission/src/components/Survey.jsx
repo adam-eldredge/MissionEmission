@@ -1,12 +1,12 @@
 import React from "react";
+import Header from "./Header";
 import './styles.css';
 
-function Survey() {
-  return (
-    <div className="survey">
-      <button type="button" onclick="alert('Hello world!')">Click Me!</button>
-    </div>
-  );
+
+class Survey extends React.Component {
+  render() {
+    return <Header name="Survey"/>;
+  }
 }
 
 export default Survey;

@@ -1,12 +1,11 @@
 import React from "react";
+import Header from "./Header";
 import './styles.css';
 
-function Progress() {
-  return (
-    <div className="progress">
-           <button type="button" onclick="alert('Hello world!')">Click Me!</button>
-    </div>
-  );
+class Progress extends React.Component {
+  render() {
+    return <Header name="Progress"/>;
+  }
 }
 
 export default Progress;
