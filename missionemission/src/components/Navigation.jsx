@@ -33,11 +33,6 @@ function Navigation() {
                     Survey
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/friends">
-                  Friends
-                </NavLink>
-              </li>
             </ul>
         </div>
     </nav>

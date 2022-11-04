@@ -7,7 +7,6 @@ import {
   Navigation,
   Footer,
   LOGIN_SCREEN,
-  Friends,
   Recommendations,
   Progress,
   Survey
@@ -15,15 +14,18 @@ import {
 
 ReactDOM.render(
   <Router>
-    <Navigation />
-    <Routes>
-      <Route path="/" element={<LOGIN_SCREEN />} />
-      <Route path="/friends" element={<Friends />} />
-      <Route path="/recommendations" element={<Recommendations />} />
-      <Route path="/progress" element={<Progress />} />
-      <Route path="/survey" element={<Survey />} />
-    </Routes>
-    <Footer />
+    <div className="page-container">
+      <div className="content-wrap">
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<LOGIN_SCREEN />} />
+          <Route path="/recommendations" element={<Recommendations />} />
+          <Route path="/progress" element={<Progress />} />
+          <Route path="/survey" element={<Survey />} />
+        </Routes>
+      </div>
+      <Footer />
+    </div>
   </Router>,
 
   document.getElementById("root")
