@@ -1,3 +1,21 @@
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+.content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
+  background-color: #3E87C1;
+  color: white;
+  text-align: center;
+}
+
 .navbar-color {
   background-color: #3E87C1;
 }
@@ -27,19 +45,9 @@
   color: whitesmoke;
 }
 
-.footer {
-  position: fixed;
-  left: 1px;
-  bottom: 1px;
-  right: 1px; 
-  width: 100%;
-  background-color: #3E87C1;
-  color: white;
-  text-align: center;
-}
 
 .header {
-  position: fixed; 
+  position: relative; 
   width: 100%;
   background-color: #3E87C1;
   color: white;
@@ -50,4 +58,18 @@
   background-color: #3E87C1;
   color: white;
   text-align: center;
+}
+
+.survey {
+  position: relative;
+}
+.question-list {
+  position: relative;
+  top: 30%;
+  left: 50%;
+  padding: 20px;
+  display: block; 
+  transform: translate(-50%);
+  color: black;
+
 }

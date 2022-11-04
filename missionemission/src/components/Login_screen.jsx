@@ -6,27 +6,24 @@ function Login_screen() {
     <div className="login_screen">
       <log className="login">
              <body className="login-loginBackground">
-               <h2>LOGIN</h2>
+               <h2>Login</h2>
                
                <form>
                     <label>
-                         Username:
-                         <input type="text" name="username" />
+                      Username:
+                      <input type="text" name="username" />
                     </label>
                     <br />
                     <label>
-                         Password: 
-                         <input type="text" name="password" />
+                      Password: 
+                      <input type="text" name="password" />
                     </label>
                     <br />
-                         <input type="submit" value="Submit" />
-                         
+                    <input type="submit" value="Submit" />
                </form>
-               <br />
              </body>
         </log>
     </div>
-    
   );
 }
 
