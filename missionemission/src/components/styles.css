@@ -35,6 +35,7 @@
 .login-loginBackground
 {
   position: absolute;
+  text-align: center;
   top: 30%;
   left: 50%;
   padding: 20px;

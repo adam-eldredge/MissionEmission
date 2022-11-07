@@ -9,28 +9,28 @@ function Navigation() {
         <a class="navbar-brand" href="/#">
           <img src="https://tinyurl.com/4bvayy4e" height="40" alt="Mission Emission"/>
         </a>
-        <a href="/" class="navbar-brand">Mission Emission</a>
+        <a href="/" class="navbar-brand"><h1>Mission Emission</h1></a>
         <div class="container">
             <ul class="navbar-nav ml-auto">
               <li className="nav-item">
                 <NavLink className="nav-link" to="/">
-                  Login
+                  <h5>Login</h5>
                   <span className="sr-only">(current)</span>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/progress">
-                    Progress
+                    <h5>Progress</h5>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/recommendations">
-                    Recommendations
+                    <h5>Recommendations</h5>
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/survey">
-                    Survey
+                    <h5>Survey</h5>
                 </NavLink>
               </li>
             </ul>

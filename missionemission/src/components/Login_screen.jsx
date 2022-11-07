@@ -1,21 +1,23 @@
 import React from "react";
+import Header from "./Header";
 import './styles.css';
 
 function Login_screen() {
   return (
     <div className="login_screen">
-      <log className="login">
-             <body className="login-loginBackground">
+          <log className="login">
+              <Header name="WELCOME" />
+              <body className="login-loginBackground">
                <h2>Login</h2>
                
                <form>
                     <label>
-                      Username:
+                          Username   :{" "}
                       <input type="text" name="username" />
                     </label>
                     <br />
                     <label>
-                      Password: 
+                          Password &nbsp;:{" "}
                       <input type="text" name="password" />
                     </label>
                     <br />
