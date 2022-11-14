@@ -7,6 +7,7 @@ import {
   Navigation,
   Footer,
   LOGIN_SCREEN,
+  SignUp,
   Recommendations,
   Progress,
   Survey
@@ -19,6 +20,7 @@ ReactDOM.render(
         <Navigation />
         <Routes>
           <Route path="/" element={<LOGIN_SCREEN />} />
+          <Route path="/SignUp" element={<SignUp />} />
           <Route path="/recommendations" element={<Recommendations />} />
           <Route path="/progress" element={<Progress />} />
           <Route path="/survey" element={<Survey />} />

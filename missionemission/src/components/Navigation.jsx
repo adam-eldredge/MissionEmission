@@ -17,7 +17,12 @@ function Navigation() {
                   <h5>Login</h5>
                   <span className="sr-only">(current)</span>
                 </NavLink>
-              </li>
+               </li>
+               <li className="nav-item">
+                 <NavLink className="nav-link" to="/SignUp">
+                   <h5>Sign Up</h5>
+                   </NavLink>
+                </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/progress">
                     <h5>Progress</h5>
