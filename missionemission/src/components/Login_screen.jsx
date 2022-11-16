@@ -8,7 +8,7 @@ function Login_screen() {
           <log className="login">
               <Header name="WELCOME" />
               <body className="login-loginBackground">
-               <h2>Login</h2>
+               <h2>Login (Existing User)</h2>
                
                <form>
                     <label>
@@ -23,7 +23,8 @@ function Login_screen() {
                     <br />
                     <input type="submit" value="Submit" />
                </form>
-             </body>
+              </body>
+
         </log>
     </div>
   );
