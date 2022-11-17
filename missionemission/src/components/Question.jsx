@@ -15,32 +15,36 @@ function Question(props) {
                     name="flexRadioDefault"
                     id="flexRadioDefault1"
                     label="1"
-                    inline
+                          inline
+                          //defaultChecked
                 />
                 <MDBRadio
                     name="flexRadioDefault"
                     id="flexRadioDefault2"
                     label="2"
-                    inline
+                          inline
+                          //defaultChecked
                 />
                       <MDBRadio
                           name="flexRadioDefault"
                           id="flexRadioDefault3"
                           label="3"
                           inline
-                          checked="yes"
+                          defaultChecked
                 />
                 <MDBRadio
                     name="flexRadioDefault"
                     id="flexRadioDefault4"
                     label="4"
-                    inline
+                          inline
+                          //defaultChecked
                 />
                 <MDBRadio
                     name="flexRadioDefault"
                     id="flexRadioDefault5"
                     label="5"
-                    inline
+                          inline
+                          //defaultChecked
                 />
                 <div className="d-inline mx-3">Agree</div>
                 </div>
