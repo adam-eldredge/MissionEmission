@@ -56,6 +56,18 @@
   transform: translate(-50%, -50%);
   font-size: calc(14px + 2vmin);
   color: whitesmoke;
+  text-decoration: none
+}
+
+.signupAddition {
+    position: relative;
+    text-align: right;
+    height: min-content;
+    display: block;
+    background-color: #859DB0;
+    font-size: calc(10px + 1vmin);
+    color: whitesmoke;
+    text-decoration: none
 }
 
 

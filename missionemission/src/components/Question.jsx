@@ -10,43 +10,39 @@ function Question(props) {
                 <p className="fw-bold text-center">{question}</p>
 
                 <div className="text-center">
-                <div className="d-inline mx-3">Bad</div>
+                <div className="d-inline mx-3">Disagree</div>
                 <MDBRadio
                     name="flexRadioDefault"
                     id="flexRadioDefault1"
                     label="1"
                     inline
-                    defaultChecked
                 />
                 <MDBRadio
                     name="flexRadioDefault"
                     id="flexRadioDefault2"
                     label="2"
                     inline
-                    defaultChecked
                 />
-                <MDBRadio
-                    name="flexRadioDefault"
-                    id="flexRadioDefault3"
-                    label="3"
-                    inline
-                    defaultChecked
+                      <MDBRadio
+                          name="flexRadioDefault"
+                          id="flexRadioDefault3"
+                          label="3"
+                          inline
+                          checked="yes"
                 />
                 <MDBRadio
                     name="flexRadioDefault"
                     id="flexRadioDefault4"
                     label="4"
                     inline
-                    defaultChecked
                 />
                 <MDBRadio
                     name="flexRadioDefault"
                     id="flexRadioDefault5"
                     label="5"
                     inline
-                    defaultChecked
                 />
-                <div className="d-inline mx-3">Excellent</div>
+                <div className="d-inline mx-3">Agree</div>
                 </div>
             </form>
         </div>

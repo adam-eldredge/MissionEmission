@@ -24,6 +24,7 @@ ReactDOM.render(
           <Route path="/recommendations" element={<Recommendations />} />
           <Route path="/progress" element={<Progress />} />
           <Route path="/survey" element={<Survey />} />
+          <Route path="*" element={<h1> ERROR 404: PAGE NOT FOUND </ h1>} />
         </Routes>
       </div>
       <Footer />

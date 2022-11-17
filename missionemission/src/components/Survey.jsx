@@ -12,15 +12,22 @@ class Survey extends React.Component {
               and will give you tailored recommendations for greener practices."/>
 
         <div className="question-list">
-          <Question question="1"/>
-          <Question question="2"/>
-          <Question question="3"/>
-          <Question question="4"/>
-          <Question question="5"/>
-          <Question question="6"/>
-          <Question question="7"/>
-          <Question question="8"/>
-
+          <Question question="I make an effort to conserve energy around the house" />
+          <br />
+          <Question question="I make an effort to conserve water that I am not using" />
+          <br />
+          <Question question="I try to avoid using single-use plastics" />
+          <br />
+          <Question question="I do not litter" />
+          <br />
+          <Question question="I properly recycle plastic, paper, metal, and glass" />
+          <br />
+          <Question question="I limit food waste by only buying or making what I need" />
+          <br />
+          <Question question="I donate used clothes instead of throwing them away" />
+          <br />
+          <Question question="I try not to drive more than I need to" />
+          <br />
           <div className="submit-btn">
             <input type="submit" value="Submit" />
           </div>
