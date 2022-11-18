@@ -6,9 +6,9 @@ function SignUp() {
     return (
         <div className="SignUp">
             <log className="signup">
-                <Header name="WELCOME" />
+                <Header name="Welcome" />
                 <body className="login-loginBackground">
-                    <h2>Sign Up (New User)</h2>
+                    <h2>Sign Up</h2>
 
                     <form>
                         <label>
