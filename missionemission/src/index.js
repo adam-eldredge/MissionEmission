@@ -23,7 +23,7 @@ ReactDOM.render(
           <Route path="/SignUp" element={<SignUp />} />
           <Route path="/recommendations" element={<Recommendations />} />
           <Route path="/progress" element={<Progress />} />
-          <Route path="/survey" element={<Survey />} />
+          <Route path="/Survey" element={<Survey />} />
           <Route path="*" element={<h1> ERROR 404: PAGE NOT FOUND </ h1>} />
         </Routes>
       </div>
