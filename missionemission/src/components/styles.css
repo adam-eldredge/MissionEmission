@@ -90,12 +90,15 @@
 }
 .question-list {
   position: relative;
-  top: 30%;
-  left: 50%;
-  padding: 20px;
-  display: block; 
-  transform: translate(-50%);
-  color: black;
+  margin: auto;
+  width: 60%;
+  padding-bottom: 3px; 
+}
+
+.survey-select {
+  margin: 5px;
+  width: 60px;
+  height: 30px;  
 }
 
 .recButtons {
