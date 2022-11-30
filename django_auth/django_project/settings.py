@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'django_project.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "MEDatabase",
+        "USER": "postgres",
+        "PASSWORD": "team20cen3031",
+        "HOST": "team20data.czs9w6dbrxsp.us-east-2.rds.amazonaws.com",
+        "PORT": "5432",
     }
 }
 
