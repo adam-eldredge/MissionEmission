@@ -38,7 +38,7 @@ function Survey() {
         <form >
           <div class="form-group">
 
-            <label>1.  </label>
+            <label>1.  &nbsp;</label>
             <select className="survey-select"
               name="q1"
               value={answers.q1}
@@ -48,7 +48,7 @@ function Survey() {
             <label>I make an effort to conserve water.</label>
             <br />
 
-            <label>2.  </label>
+            <label>2.   &nbsp;</label>
             <select className="survey-select"
               name="q2"
               value={answers.q2}
@@ -58,7 +58,7 @@ function Survey() {
             <label>I try to avoid using single-use plastics.</label>
             <br />
             
-            <label>3.  </label>
+            <label>3.   &nbsp;</label>
             <select className="survey-select"
               name="q3"
               value={answers.q3}
@@ -68,7 +68,7 @@ function Survey() {
             <label>I often throw away unused food.</label>
             <br />
 
-            <label>4.  </label>
+            <label>4.   &nbsp;</label>
             <select className="survey-select"
               name="q4"
               value={answers.q4}
@@ -78,7 +78,7 @@ function Survey() {
             <label>I repair my appliances, rather than get new ones, whenever possible.</label>
             <br />
 
-            <label>5.  </label>
+            <label>5.   &nbsp;</label>
             <select className="survey-select"
               name="q5"
               value={answers.q5}
@@ -88,7 +88,7 @@ function Survey() {
             <label>I often eat pre-prepared and/or frozen food.</label>
             <br />
 
-            <label>6.  </label>
+            <label>6.   &nbsp;</label>
             <select className="survey-select"
               name="q6"
               value={answers.q6}
@@ -98,7 +98,7 @@ function Survey() {
             <label>I often use bottled water.</label>
             <br />
 
-            <label>7.  </label>
+            <label>7.   &nbsp;</label>
             <select className="survey-select"
               name="q7"
               value={answers.q7}
@@ -108,7 +108,7 @@ function Survey() {
             <label>I buy local ingredients whenever possible.</label>
             <br />
 
-            <label>8.  </label>
+            <label>8.   &nbsp;</label>
             <select className="survey-select"
               name="q8"
               value={answers.q8}
@@ -118,7 +118,7 @@ function Survey() {
             <label>I buy in bulk.</label>
             <br />
 
-            <label>9.  </label>
+            <label>9.   &nbsp;</label>
             <select className="survey-select"
               name="q9"
               value={answers.q9}
