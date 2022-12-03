@@ -26,7 +26,7 @@ function SignUp() {
                             <input type="text" name="password" />
                         </label>
                         <br />
-                        <input type="submit" value="Submit" />
+                        <input type="submit" value="Submit" class="btn btn-primary btn-lg" />
                     </form>
                 </body>
 
