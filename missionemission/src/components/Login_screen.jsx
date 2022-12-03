@@ -22,11 +22,11 @@ function Login_screen() {
                      <input type="text" name="password" />
                    </label>
                    <br />
-                   <input type="submit" value="Submit" />
+                   <input type="submit" value="Submit" class="btn btn-primary btn-lg"/>
                   </form>
 
                   <body className="signupAddition">
-                      <br />
+                      
                       <ul>
                           <li style={{ listStyleType: "none" }}>
                               New User? &nbsp;
