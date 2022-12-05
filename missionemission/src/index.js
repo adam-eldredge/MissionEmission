@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
   Footer,
-  LOGIN_SCREEN,
+  Welcome_screen,
   Recommendations,
     Survey,
 

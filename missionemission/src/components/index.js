@@ -1,6 +1,6 @@
 export { default as Navigation } from "./Navigation";
 export { default as Footer } from "./Footer";
-export { default as LOGIN_SCREEN } from "./Login_screen";
+export { default as Welcome_screen } from "./Welcome_screen";
 export { default as SignUp } from "./SignUp";
 export { default as Recommendations } from "./Recommendations";
 export { default as Progress } from "./Progress";

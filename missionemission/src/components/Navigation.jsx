@@ -1,11 +1,12 @@
 import React from "react";
+import { Auth0Provider } from "@auth0/auth0-react";
+import AuthButton from './authButton';
 import { NavLink, redirect } from "react-router-dom";
 import './styles.css';
 import AuthBar from './authBar';
 import { useAuth0 } from "@auth0/auth0-react";
 
 function Navigation() {
-    
     const { logout,loginWithRedirect,isAuthenticated } = useAuth0();
     if (isAuthenticated) {
         return (
@@ -66,8 +67,6 @@ function Navigation() {
         );
     }
         
-
-    
 }
 
 export default Navigation;
