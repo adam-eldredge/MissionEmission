@@ -69,7 +69,7 @@ class Recommendations extends React.Component {
                   </ul>
                 </MDBCol>
                 <MDBCol md="6">
-                <h3>Atricles</h3>
+                <h3>Articles</h3>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item">1.</li>
                     <li class="list-group-item">2.</li>
