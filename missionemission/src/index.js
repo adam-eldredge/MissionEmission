@@ -10,14 +10,17 @@ import {
   SignUp,
   Recommendations,
   Progress,
-  Survey
+    Survey,
+  AuthBar
 } from "./components";
+
 
 ReactDOM.render(
   <Router>
     <div className="page-container">
       <div className="content-wrap">
-        <Navigation />
+                <Navigation />
+                <AuthBar />
         <Routes>
           <Route path="/" element={<LOGIN_SCREEN />} />
           <Route path="/SignUp" element={<SignUp />} />

@@ -7,4 +7,5 @@ export { default as Progress } from "./Progress";
 export { default as Survey } from "./Survey";
 export { default as Header } from "./Header";
 export { default as Question } from "./Question";
+export { default as AuthBar } from './authBar';
 
