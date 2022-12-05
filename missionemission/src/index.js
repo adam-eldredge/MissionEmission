@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
   Footer,
-  LOGIN_SCREEN,
+  Welcome_screen,
   SignUp,
   Recommendations,
   Progress,
@@ -20,9 +20,8 @@ ReactDOM.render(
     <div className="page-container">
       <div className="content-wrap">
                 <Navigation />
-                <AuthBar />
         <Routes>
-          <Route path="/" element={<LOGIN_SCREEN />} />
+          <Route path="/" element={<Welcome_screen />} />
           <Route path="/SignUp" element={<SignUp />} />
           <Route path="/recommendations" element={<Recommendations />} />
           <Route path="/progress" element={<Progress />} />

@@ -4,8 +4,6 @@ import { Auth0Provider } from "@auth0/auth0-react";
 
 const AuthBar = () => (
     <Auth0Provider
-        //domain={process.env.REACT_APP_AUTH0_DOMAIN}
-        //clientId={process.env.REACT_APP_AUTH0_CLIENT_ID}
         domain="dev-rbh55tcb1jt0r6eo.us.auth0.com"
         clientId="SpBpMIBvswlwv8HyyTfD3HEGJZj4DfnZ"
         redirectUri={window.location.origin}

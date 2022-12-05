@@ -1,5 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import { Auth0Provider } from "@auth0/auth0-react";
+import AuthButton from './authButton';
 import './styles.css';
 
 function Navigation() {
@@ -29,6 +31,17 @@ function Navigation() {
                     <h5>Survey</h5>
                 </NavLink>
               </li>
+
+              <Auth0Provider
+                domain="dev-rbh55tcb1jt0r6eo.us.auth0.com"
+                clientId="SpBpMIBvswlwv8HyyTfD3HEGJZj4DfnZ"
+                redirectUri={window.location.origin}
+                >
+                <div className="navbar navbar-expand-sm navbar-dark navbar-color">
+                    <AuthButton />
+                </div>
+              </Auth0Provider>
+              
             </ul>
         </div>
     </nav>
