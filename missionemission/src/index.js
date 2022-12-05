@@ -30,7 +30,7 @@ ReactDOM.render(
                 </Auth0Provider>
         
         <Routes>
-          <Route path="/" element={<LOGIN_SCREEN />} />
+          <Route path="/" element={<Welcome_screen />} />
           <Route path="/recommendations" element={<Recommendations />} />
           <Route path="/Survey" element={<Survey />} />          
           <Route path="*" element={<h1> ERROR 404: PAGE NOT FOUND </ h1>} />
