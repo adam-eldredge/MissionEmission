@@ -33,7 +33,7 @@ function Navigation() {
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <button onClick={() => logout({ returnTo: window.location.origin })} class="btn btn-primary btn-lg">Log Out</button>
+                                <button onClick={() => logout({ returnTo: window.location.origin })} class="btn btn-light">Log Out</button>
                             </li>
                         </ul>
                     </div>
@@ -58,7 +58,7 @@ function Navigation() {
                                 </NavLink>
                             </li>
                             <li className="nav-item">
-                                <button onClick={() => loginWithRedirect()} class="btn btn-primary btn-lg">Log In</button>
+                                <button onClick={() => loginWithRedirect()} class="btn btn-light">Log In</button>
                             </li>
                         </ul>
                     </div>

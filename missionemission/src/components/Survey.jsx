@@ -18,13 +18,6 @@ function Survey() {
     event.preventDefault(); // prevents the submit button from refreshing the page
     alert(
       "Answers stored"
-       /*"Q1: "+answers.q1 +"\n" +"Q2: "+answers.q2 +"\n" +"Q3: "+answers.q3 +"\n" +"Q4: "+answers.q4 +"\n" +"Q5: "+answers.q5 +"\n"
-       +"Q6: "+answers.q6 +"\n" +"Q7: "+answers.q7 +"\n" +"Q8: "+answers.q8 +"\n" +"Q9: "+answers.q9 +"\n" +"Q10: "+answers.q10 +"\n"
-       +"Q11: "+answers.q11 +"\n" +"Q12: "+answers.q12 +"\n" +"Q13: "+answers.q13 +"\n" +"Q14: "+answers.q14 +"\n" +"Q15: "+answers.q15 +"\n"
-       +"Q16: "+answers.q16 +"\n" +"Q17: "+answers.q17 +"\n" +"Q18: "+answers.q18 +"\n" +"Q19: "+answers.q19 +"\n" +"Q20: "+answers.q20 +"\n"
-       +"Q21: "+answers.q21 +"\n" +"Q22: "+answers.q22 +"\n" +"Q23: "+answers.q23 +"\n" +"Q24: "+answers.q24 +"\n" +"Q25: "+answers.q25 +"\n"
-       +"Q26: "+answers.q26 +"\n" +"Q27: "+answers.q27 +"\n" +"Q28: "+answers.q28 +"\n" +"Q29: "+answers.q29 +"\n" +"Q30: "+answers.q30 +"\n"
-       */
       );
     //pull values for database here
   };
