@@ -13,8 +13,6 @@ function Login_screen() {
   return (
     <div className="login_screen">
           <log className="login">
-              <Header name="Welcome"/>
-              <body className="login-loginBackground">
                
               <Auth0Provider
                 domain="dev-rbh55tcb1jt0r6eo.us.auth0.com"
@@ -24,36 +22,8 @@ function Login_screen() {
                  <LoginButton/>
                  <Profile/>
                  <LogoutButton/>
-              </Auth0Provider>,
+              </Auth0Provider>
 
-              <form>
-                   <label>
-                         Username   :{" "}
-                     <input type="text" name="username" />
-                   </label>
-                   <br />
-                   <label>
-                         Password &nbsp;:{" "}
-                     <input type="text" name="password" />
-                   </label>
-                   <br />
-                   <input type="submit" value="Submit" class="btn btn-primary btn-lg"/>
-                  </form>
-
-                  <body className="signupAddition">
-                      
-                      <ul>
-                          <li style={{ listStyleType: "none" }}>
-                              New User? &nbsp;
-                              <Link to="/signup">Sign Up</ Link>
-                          </ li>
-                      </ ul>
-
-                  </ body>
-
-              </body>
-
-              
         </log>
     </div>
   );
