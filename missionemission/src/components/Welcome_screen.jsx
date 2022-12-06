@@ -18,7 +18,7 @@ function Welcome_screen() {
                     <div class="card-body">
                       <p class="card-text"> Climate change is an every present rapidily increasing risk to our society.
                         Our mission is to inspire people to take an active role in reducing their carbon footprint. 
-                        We hope this we can help people understand the impact of their own habbits and how to help
+                        We hope this we can help people understand the impact of their own habits and how to help
                         reduce those impacts.</p>
                     </div>
                   </div>
