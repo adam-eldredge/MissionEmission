@@ -1,9 +1,6 @@
 import React from "react";
-import { Auth0Provider } from "@auth0/auth0-react";
-import AuthButton from './authButton';
-import { NavLink, redirect } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import './styles.css';
-import AuthBar from './authBar';
 import { useAuth0 } from "@auth0/auth0-react";
 
 function Navigation() {

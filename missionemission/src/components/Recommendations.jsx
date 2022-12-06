@@ -1,8 +1,7 @@
 import React from "react";
 import Header from "./Header";
-import { MDBBtn, MDBCol, MDBContainer, MDBRadio, MDBRow } from "mdb-react-ui-kit";
+import { MDBCol, MDBContainer, MDBRow } from "mdb-react-ui-kit";
 import './styles.css';
-import { Link } from "react-router-dom";
 
 class Recommendations extends React.Component {
 

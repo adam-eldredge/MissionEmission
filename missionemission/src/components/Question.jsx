@@ -1,9 +1,7 @@
 import React from "react";
-import { useState } from "react";
-import { MDBBtn, MDBCol, MDBContainer, MDBRadio, MDBRow } from "mdb-react-ui-kit";
+import { MDBContainer, MDBRadio } from "mdb-react-ui-kit";
 
 function Question({chooseMessage}, {question}) {
-    /*const question = props.question;*/
   return (
     <MDBContainer className="d-flex justify-content-center">
         <div className="mx-0 mx-sm-auto">

@@ -1,13 +1,11 @@
 import React from "react";
 import Header from "./Header";
 import './styles.css';
-import { MDBBtn, MDBCol, MDBContainer, MDBRadio, MDBRow } from "mdb-react-ui-kit";
+import { MDBCol, MDBContainer, MDBRow } from "mdb-react-ui-kit";
 import Profile from "./Profile";
-import { useAuth0 } from '@auth0/auth0-react'
 
 
 function Welcome_screen() {
-  const { user, isAuthenticated } = useAuth0();
   return (
     <div className="login_screen">
               <Header name="Welcome" />
