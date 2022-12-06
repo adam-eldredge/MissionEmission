@@ -1,7 +1,5 @@
-import React from "react";
-import { useState } from "react";
+import { React, useState } from "react";
 import Header from "./Header";
-import Question from "./Question";
 import './styles.css';
 
 function Survey() {
