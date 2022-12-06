@@ -2,14 +2,12 @@ import React from "react";
 import Header from "./Header";
 import './styles.css';
 import { MDBCol, MDBContainer, MDBRow } from "mdb-react-ui-kit";
-import Profile from "./Profile";
 
 
 function Welcome_screen() {
   return (
     <div className="login_screen">
               <Header name="Welcome" />
-              <Profile/>
 
               <MDBContainer className="">
               <MDBRow>
