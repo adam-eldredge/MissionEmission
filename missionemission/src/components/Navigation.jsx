@@ -4,7 +4,7 @@ import './styles.css';
 import { useAuth0 } from "@auth0/auth0-react";
 
 function Navigation() {
-    const { logout,loginWithRedirect,isAuthenticated } = useAuth0();
+    const { user, logout, loginWithRedirect,isAuthenticated } = useAuth0();
     if (isAuthenticated) {
         return (
             <div className="navigation">
@@ -17,7 +17,7 @@ function Navigation() {
                         <ul class="navbar-nav ml-auto">
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/">
-                                    <h5>Welcome</h5>
+                                    <h5>Welcome {user?.name}</h5>
                                     <span className="sr-only">(current)</span>
                                 </NavLink>
                             </li><li className="nav-item">
